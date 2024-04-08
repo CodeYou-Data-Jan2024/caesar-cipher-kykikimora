@@ -13,6 +13,6 @@ def caesar(message, offset):
             new_index = (index + offset) % len(alphabet)
             encrypted_text += alphabet[new_index]
     print("Please enter a sentence: ", message)
-    print("THe encrypted sentence is: ", encrypted_text)
+    print("The encrypted sentence is: ", encrypted_text)
 
 caesar(text, shift)                
